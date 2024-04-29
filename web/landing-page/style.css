@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    padding: 0 40px;
+}
+
+nav img {
+    position: relative;
+    bottom: 60px;
+}
+
+.name {
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 30px;
+}
+
+.loginSignup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login {
+    padding-right: 20px;
+}
+
+.signBtn {
+    padding: 8px;
+    border: none;
+    background-color: #4468f9;
+    border-radius: 4px;
+    color: white;
+
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10%;
+}
+
+
+.container1 .tagImg {
+    position: relative;
+    /* bottom: 9rem; */
+    bottom: 90px;
+}
+
+.container1 h1 {
+    font-size: 50px;
+}
+
+.container1 .container1_content {
+    position: relative;
+    margin-left: 7.5rem;
+    bottom: 40px;
+}
+
+.container1 hr {
+    margin: 20px 0 20px 0;
+}
+
+.container1 input[type=checkbox] {
+    accent-color: purple;
+    margin: 0 5px 0 5px;
+}
+
+.container1 .signupInp {
+    margin-top: 20px;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+.container2 {
+    background-color: #f1f5fd;
+    margin: 100px 0;
+}
+
+.container2 .wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container2 .offerImg {
+    position: relative;
+    bottom: 15px;
+}
+
+.container2 .awardImg,
+.modelImg {
+    height: 60px;
+    border-radius: 100%;
+    width: 60px;
+}
+
+.container2 .awardImg {
+    box-shadow: 2px 3px 8px black;
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container3_top img {
+    width: 150px;
+    padding: 10px 0;
+}
+
+.container3_top h2 {
+    padding: 10px 0;
+}
+
+.container3 .container3_bottom {
+    padding: 40px 0;
+}
+
+.container3_wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.container3_wrapper img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.container3 .smallImg {
+    position: relative;
+    bottom: 7rem;
+    right: 50px;
+}
+
+.container3 .message {
+    position: relative;
+    top: 20px;
+}
+
+.container4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+    background-color: #9965f6;
+
+}
+
+.container4 .container4_wrapper {
+    padding-left: 7rem;
+}
+
+.container4_brand {
+    margin: 20px 0 70px 0;
+}
+
+.container4_arrows {
+    position: relative;
+    top: 7rem;
+}
+
+.container5 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 100px 0;
+}
+
+.container5 img {
+    position: relative;
+    right: 30rem;
+    bottom: 30px;
+}
+
+.container5 .cards {
+    display: flex;
+    text-align: left;
+    margin-top: 35px;
+}
+
+.container5 .cards .card1,
+.card2 {
+    margin: 0 20px;
+}
+
+.card1 {
+    background-color: #2676ff;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.card1 button,
+.card2 button {
+    padding: 8px;
+    border: none;
+    background-color: #fff;
+    border-radius: 4px;
+    color: black;
+    margin-top: 10px;
+}
+
+.container5_heading h1 {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.card2 {
+    background-color: #00d085;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+footer {
+    background-color: #eef1f9;
+    padding: 50px;
+    position: relative;
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerImg {
+    position: absolute;
+    left: -3rem;
+    bottom: 120px;
+    height: 100px;
+}
+
+ul {
+    margin-bottom: 30px;
+}
+
+ul li {
+    list-style: none;
+}
+
+.footerContaine2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 0 0;
+}
